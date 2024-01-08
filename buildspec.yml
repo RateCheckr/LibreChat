@@ -5,7 +5,6 @@ phases:
     runtime-versions:
       nodejs: 18
     commands:
-      - cd LibreChat
       - echo "Performing npm install"
       - npm install
 
@@ -17,9 +16,6 @@ phases:
 
 artifacts:
   files: '**/*'
-  #- "LibreChat/build"
-  base-directory: 'LibreChat/build'
-  #discard-path: yes
 
 cache:
   paths:
