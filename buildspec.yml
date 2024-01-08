@@ -15,7 +15,7 @@ phases:
 
 artifacts:
   files: '**/*'
-  base-directory: 'dist'
+  base-directory: 'LibreChat'
 
 cache:
   paths:
